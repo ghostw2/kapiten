@@ -6,7 +6,8 @@ const Kreu = ({ navigation }) => {
     
     return (
         <ScrollView>
-            <Jumbotron/>
+            <Jumbotron navigation={navigation} />
         </ScrollView>
     )
 }
+export default Kreu;
